@@ -7,10 +7,10 @@ while True:
     if x=="STOP":
         break
     else:
-         lista.append(x)
+         lista.append(int(x))
 var=max(lista)   
 for i in range(0,var):
-    if i not in lista :
-        lista1.append(i)
+     if i not in lista :
+         lista1.append(i)
 print(lista1)
 
